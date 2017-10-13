@@ -561,6 +561,7 @@ typedef NS_ENUM(NSUInteger, KIFPullToRefreshTiming) {
  @discussion Use this to dissmiss a location services authorization dialog or a photos access dialog by tapping the 'Allow' button. No action is taken if no alert is present.
  */
 - (BOOL)acknowledgeSystemAlert;
+- (BOOL)acknowledgeLocationAlert;
 #endif
 
 /*!

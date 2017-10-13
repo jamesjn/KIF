@@ -14,6 +14,7 @@
 @interface UIAutomationHelper : NSObject
 
 + (BOOL)acknowledgeSystemAlert;
++ (BOOL)acknowledgeLocationAlert;
 
 + (void)deactivateAppForDuration:(NSNumber *)duration;
 

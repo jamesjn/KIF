@@ -939,6 +939,11 @@
     return [UIAutomationHelper acknowledgeSystemAlert];
 }
 
+- (BOOL)acknowledgeLocationAlert
+{
+    return [UIAutomationHelper acknowledgeLocationAlert];
+}
+
 #endif
 
 - (void)tapItemAtIndexPath:(NSIndexPath *)indexPath inCollectionView:(UICollectionView *)collectionView
